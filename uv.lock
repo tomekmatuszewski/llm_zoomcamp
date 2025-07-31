@@ -100,16 +100,14 @@ wheels = [
 
 [[package]]
 name = "elasticsearch"
-version = "9.0.2"
+version = "8.4.3"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "elastic-transport" },
-    { name = "python-dateutil" },
-    { name = "typing-extensions" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/7f/63/a296828c46fd162a95ed1c560a3fdcea6a68a3b7c45d2aa60594f33eaf1b/elasticsearch-9.0.2.tar.gz", hash = "sha256:290e790153500d9f3cb66d74918ac70e9f96b5cd88147213859edca6ab5013f5", size = 829474 }
+sdist = { url = "https://files.pythonhosted.org/packages/88/26/f217089ed7120331d1b41de9fa62059b89b3517d0236a813354c2350d627/elasticsearch-8.4.3.tar.gz", hash = "sha256:d34d43a6c349d15c9d91840f791eeba80fc50ee070caf6695130f56b7f41a02d", size = 305160 }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/3e/81/eadbbc38011dd3380dac72a142b175b4a174fa671c584ec38701995b1991/elasticsearch-9.0.2-py3-none-any.whl", hash = "sha256:47cac1f0e5e7be8d8c6751a5d7818d416adfc11eac72f1b59e145930a87de880", size = 914307 },
+    { url = "https://files.pythonhosted.org/packages/9f/e9/b6e80e27dabfd9a13b4138f1f7c012549c293dc50c4ea697c8614329dc5e/elasticsearch-8.4.3-py3-none-any.whl", hash = "sha256:14c68a96b7bbbf150dd9fca5ff65da9c50e791c0fdba474a328e43828fdd7f42", size = 384634 },
 ]
 
 [[package]]
@@ -294,7 +292,7 @@ dependencies = [
 
 [package.metadata]
 requires-dist = [
-    { name = "elasticsearch", specifier = ">=9.0.2" },
+    { name = "elasticsearch", specifier = "==8.4.3" },
     { name = "langchain", specifier = ">=0.3.27" },
     { name = "minsearch", specifier = ">=0.0.4" },
     { name = "ollama", specifier = ">=0.5.1" },
